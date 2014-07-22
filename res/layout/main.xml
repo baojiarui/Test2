@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/normal_bg" >
+
+    <RelativeLayout
+        android:id="@+id/tab_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom" >
+
+        <LinearLayout
+            android:id="@+id/tab_item_container"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:gravity="bottom"
+            android:background="@drawable/tab_bg"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/tab_bt_1"
+                style="@style/tab_btn_style"
+                android:text="预约" />
+
+            <Button
+                android:id="@+id/tab_bt_2"
+                style="@style/tab_btn_style"
+                android:text="定制" />
+
+            <Button
+                android:id="@+id/tab_bt_3"
+                style="@style/tab_btn_style"
+                android:text="我的" />
+
+            <Button
+                android:id="@+id/tab_bt_4"
+                style="@style/tab_btn_style"
+                android:text="FAQ" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tab_container"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content_container2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tab_container"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

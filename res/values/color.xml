@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 控件颜色 -->
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+
+    <!-- 字体颜色 -->
+    <!-- 白色 -->
+    <color name="font_white">#ffffff</color>
+
+</resources>
